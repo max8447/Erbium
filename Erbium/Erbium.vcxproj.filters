@@ -222,6 +222,9 @@
     <ClInclude Include="..\SDK\Engine.h">
       <Filter>SDK</Filter>
     </ClInclude>
+    <ClInclude Include="FortniteGame\Public\FortControllerComponent_CampsiteAccountItem.h">
+      <Filter>FortniteGame\Public</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Erbium\Private\dllmain.cpp">
@@ -315,6 +318,9 @@
       <Filter>FortniteGame\Private</Filter>
     </ClCompile>
     <ClCompile Include="FortniteGame\Private\FortQuestManager.cpp">
+      <Filter>FortniteGame\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="FortniteGame\Private\FortControllerComponent_CampsiteAccountItem.cpp">
       <Filter>FortniteGame\Private</Filter>
     </ClCompile>
   </ItemGroup>

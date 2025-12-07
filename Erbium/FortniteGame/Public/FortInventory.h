@@ -206,6 +206,12 @@ public:
     DEFINE_STRUCT_PROP(PickupVariantIndex, int32);
     DEFINE_STRUCT_PROP(OrderIndex, int16);
     DEFINE_STRUCT_PROP(ItemVariantDataMappingIndex, int32);
+
+    FFortItemEntry& operator=(const FFortItemEntry& Other)
+    {
+        *this = Other;
+        return *this;
+    }
 };
 
 class UFortWorldItem : public UObject

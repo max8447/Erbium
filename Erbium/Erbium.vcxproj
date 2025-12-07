@@ -185,6 +185,7 @@
     <ClInclude Include="FortniteGame\Public\FortAthenaCreativePortal.h" />
     <ClInclude Include="FortniteGame\Public\FortAthenaMutator.h" />
     <ClInclude Include="FortniteGame\Public\FortCheatManager.h" />
+    <ClInclude Include="FortniteGame\Public\FortControllerComponent_CampsiteAccountItem.h" />
     <ClInclude Include="FortniteGame\Public\FortGameMode.h" />
     <ClInclude Include="FortniteGame\Public\FortGameSessionAthena.h" />
     <ClInclude Include="FortniteGame\Public\FortGameStateAthena.h" />
@@ -230,6 +231,7 @@
     <ClCompile Include="FortniteGame\Private\BuildingSMActor.cpp" />
     <ClCompile Include="FortniteGame\Private\FortAthenaCreativePortal.cpp" />
     <ClCompile Include="FortniteGame\Private\FortAthenaMutator.cpp" />
+    <ClCompile Include="FortniteGame\Private\FortControllerComponent_CampsiteAccountItem.cpp" />
     <ClCompile Include="FortniteGame\Private\FortGameMode.cpp" />
     <ClCompile Include="FortniteGame\Private\FortInventory.cpp" />
     <ClCompile Include="FortniteGame\Private\FortKismetLibrary.cpp" />
